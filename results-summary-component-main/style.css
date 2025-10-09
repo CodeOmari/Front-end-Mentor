@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.results{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:  21px;
+}
+.average-score{
+    background-color: hsla(256, 72%, 46%, 1);
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21px;
+}
+.result{
+    color: hsl(252, 100%, 67%);
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.score{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(256, 72%, 46%, 1);
+    border-style: solid;
+    border-color: hsl(252, 100%, 67%);
+    border-radius: 50%;
+}
+.score h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 45px;
+    font-weight: 900;
+}
+.score p{
+    color: hsl(252, 100%, 67%);
+}
+.remarks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+.remarks h3{
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 12px;
+}
+.remarks p{
+    color: hsl(252, 100%, 67%);
+    font-size: 14px;
+    text-align: center;
+}
+#results-container{
+    width: 400px;
+    padding: 21px;
+}
+.results-summary{
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    padding-bottom: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#results-container .reaction{
+    display: flex;
+    background-color: hsl(0, 100%, 67%);
+    margin-bottom: 14px;
+    padding: 12px;
+    border-radius: 5px;
+}
+#results-container .memory{
+    display: flex;
+    background-color: hsl(0, 100%, 67%);
+    margin-bottom: 14px;
+    padding: 12px;
+    border-radius: 5px;
+}
+#results-container .verbal{
+    display: flex;
+    background-color: hsl(0, 100%, 67%);
+    margin-bottom: 14px;
+    padding: 12px;
+    border-radius: 5px;
+}
+#results-container .visual{
+    display: flex;
+    background-color: hsl(241, 100%, 89%);
+    margin-bottom: 14px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.continue-btn{
+    width: 200px;
+    padding: 12px;
+    border-style: none;
+    border-radius: 20px;
+}
