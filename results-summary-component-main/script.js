@@ -41,7 +41,11 @@ fetch('data.json')
 
                 <div class='info'>
                     <h5>${result.category}</h5>
-                    <p>${result.score} / 100</p>
+
+                    <div class='exact-score'>
+                        80
+                        <p>/100</p>
+                    </div>
                 </div>
             `;
 
