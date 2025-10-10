@@ -15,13 +15,13 @@ body{
     margin-top: 60px;
     display: flex;
     flex-direction: row;
-    width: 450px;
+    width: 550px;
     overflow: hidden;
     background-color: hsl(0, 0%, 100%);
     border-radius:  21px;
 }
 .average-score{
-    background-color: hsla(256, 72%, 46%, 1);
+    background-color: hsla(256, 72%, 46%, 1.2);
     border-top-right-radius: 21px;
     border-bottom-right-radius: 21px;
     width: 350px;
@@ -31,7 +31,7 @@ body{
     padding: 21px;
 }
 .result{
-    color: hsl(252, 100%, 67%);
+    color: hsla(0, 0%, 100%, 0.8);
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 20px;
@@ -43,9 +43,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: hsla(256, 72%, 46%, 1);
+    background-color: hsla(241, 81%, 54%, 0.6);
     border-style: solid;
-    border-color: hsl(252, 100%, 67%);
+    border-color:  hsla(241, 81%, 54%, 0.2);
     border-radius: 50%;
 }
 .score h1{
@@ -67,7 +67,7 @@ body{
     padding-bottom: 12px;
 }
 .remarks p{
-    color: hsl(252, 100%, 67%);
+    color: hsla(0, 0%, 100%, 0.8);
     font-size: 14px;
     text-align: center;
 }
@@ -85,38 +85,75 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: 8px;
 }
 #results-container .reaction{
     display: flex;
-    background-color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
     margin-bottom: 14px;
     padding: 12px;
     border-radius: 5px;
+    color: hsl(0, 100%, 67%);
+}
+#results-container .reaction .exact-score{
+    padding-left: 60px;
 }
 #results-container .memory{
     display: flex;
-    background-color: hsl(0, 100%, 67%);
+    background-color: hsla(39, 100%, 56%, 0.1);
     margin-bottom: 14px;
     padding: 12px;
     border-radius: 5px;
+    color: hsl(39, 100%, 56%);
+}
+#results-container .memory .exact-score{
+    padding-left: 60px;
 }
 #results-container .verbal{
     display: flex;
-    background-color: hsl(0, 100%, 67%);
+    background-color: hsla(166, 100%, 37%, 0.1);
     margin-bottom: 14px;
     padding: 12px;
     border-radius: 5px;
+    color: hsl(166, 100%, 37%);
+}
+#results-container .verbal .exact-score{
+    padding-left: 70px;
 }
 #results-container .visual{
     display: flex;
-    background-color: hsl(241, 100%, 89%);
+    background-color: hsla(234, 85%, 45%, 0.1);
     margin-bottom: 14px;
     padding: 12px;
     border-radius: 5px;
+    color: hsl(234, 85%, 45%);
+}
+#results-container .visual .exact-score{
+    padding-left: 70px;
 }
 .continue-btn{
-    width: 200px;
+    width: 250px;
     padding: 12px;
     border-style: none;
     border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.continue-btn:hover{
+    background-color: hsla(256, 72%, 46%, 1.2);
+}
+.exact-score{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    text-align: end;
+    color: hsl(224, 30%, 27%);
+    font-weight: 500;
+    font-size: 14px;
+}
+.exact-score p{
+    color: hsla(224, 30%, 27%, 0.6);
 }
