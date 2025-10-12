@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.car-container{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 24px;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 24px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 24px;
+}
+.icon{
+    width: 50px;
+    padding-bottom: 20px;
+}
+.type{
+    padding-bottom: 20px;
+    color:  hsl(0, 0%, 95%);
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.description{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.sedan-btn, .suv-btn, .luxury-btn{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.sedan-btn{
+    color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca", sans-serif;
+}
+.sedan-btn:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: solid;
+    border-color: hsl(0, 0%, 95%);
+    border-width: 0.1px;
+}
+.suv-btn{
+    color: hsl(184, 100%, 22%);
+    font-family: "Lexend Deca", sans-serif;
+}
+.suv-btn:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: solid;
+    border-color: hsl(0, 0%, 95%);
+    border-width: 0.1px;
+}
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
+    font-family: "Lexend Deca", sans-serif;
+}
+.luxury-btn:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border: solid;
+    border-color: hsl(0, 0%, 95%);
+    border-width: 0.1px;
+}
