@@ -10,13 +10,35 @@ body{
     align-items: center;
     background-color: hsl(300, 24%, 96%);
 }
+.top-pattern{
+    width: 400px;
+}
+.bottom-pattern{
+    width: 900px;
+    height: 450px;
+    margin-top: -390px;
+}
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.img-wrapper::after{
+    content: '';
+    position: absolute;
+}
 .container{
     width: 900px;
-    margin-top: 70px;
+    margin-top: 50px;
+    background-color: hsl(0, 0%, 100%);
 }
 .products-container{
     display: flex;
     flex-direction: row;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 60px;
+    margin-top: -220px;
 }
 .products{
     width: 300px;
@@ -71,6 +93,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
     width: 780px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 20px;
 }
 .reviews-container img{
     border-radius: 50%;
